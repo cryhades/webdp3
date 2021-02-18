@@ -159,6 +159,7 @@ img {
     border: none;
     margin-bottom: 0;
 }
+.curso__label,
 .widget-curso__label {
     font-family: var(--fuenteheading);
     font-weight: 700;
@@ -184,6 +185,7 @@ img {
 	column-gap: 2rem;
     }
 }
+/*CURSOS*/
 .curso {
     padding: 3rem 0;
     border-bottom: 1px solid var(--claro);
@@ -195,7 +197,13 @@ img {
 	column-gap: 2rem;
     }
 }
-
 .curso:last-of-type {
     border: none;
+}
+.curso__info {
+    font-weight: 400;
+}
+.curso__info,
+.curso__label {
+    font-size: 2rem;
 }
