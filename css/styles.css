@@ -24,14 +24,13 @@ body {
 /*Globales*/
 
 .contenedor {
-    max-width: 120rem;
-    width: 90%;
+    width: min(90%, 129rem);
     margin: 0 auto;
 }
 a {
     text-decoration: none;
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: var(--fuenteheading);
     line-height: 1.2;
 }
@@ -62,6 +61,7 @@ img {
     text-align: center;
 }
 /*Header*/
+
 .header {
     background-image: url(../img/banner.jpg);
     height: 60rem;
@@ -237,4 +237,3 @@ img {
 .campo__field {
     flex: 1;
 }
-.campo__field--textarea
